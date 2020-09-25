@@ -1,0 +1,203 @@
+Removed Pin From Net: NetName=NetR2_1 Pin=R3-2
+Removed Pin From Net: NetName=NetR1_1 Pin=U1-1
+Removed Pin From Net: NetName=+5V_P Pin=U1-2
+Removed Pin From Net: NetName=AGND Pin=U1-5
+Removed Pin From Net: NetName=NetR2_2 Pin=U2-1
+Removed Pin From Net: NetName=NetR2_1 Pin=U2-2
+Removed Pin From Net: NetName=NetC5_1 Pin=U2-3
+Removed Pin From Net: NetName=AGND Pin=U2-4
+Removed Pin From Net: NetName=NetC10_1 Pin=U2-5
+Removed Pin From Net: NetName=NetR9_1 Pin=U2-6
+Removed Pin From Net: NetName=NetR9_2 Pin=U2-7
+Removed Pin From Net: NetName=+5V_P Pin=U2-8
+Removed Pin From Net: NetName=NetR9_2 Pin=U6-5
+Removed Pin From Net: NetName=NetR2_2 Pin=U6-6
+Change Component Footprint: Designator=U1 Old Footprint=ADI-RJ-5_L New Footprint=ADI-R-14_M
+Change Component Footprint: Designator=R2 Old Footprint=FP-AC1206-MFG New Footprint=RESC3116X65X45ML10T20
+Change Component Comment : Designator=R2 Old Comment=6.8K New Comment=0
+Change Component Comment : Designator=R3 Old Comment=10K New Comment=0
+Change Component Comment : Designator=U1 Old Comment=TMP36GRTZ-REEL7 New Comment=OP484FSZ
+Change Managed Component Library Link : Designator=R2 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=9B023B7B-50CB-4E7F-BA57-2166DE8748AC New ItemGUID=A4F9F2FF-6F20-4C60-AC78-883FC158853F Old RevisionGUID=5EC197DD-E399-4967-9C33-2A98DB97257F New RevisionGUID=500D8C67-E575-4F89-8240-C90B68E8B3F4
+Change Managed Component Library Link : Designator=U1 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=A170E8B0-4360-49BC-AA31-3C34AD59325F New ItemGUID=A38BB955-D1BF-43BE-A19D-E99203575A86 Old RevisionGUID=C22345C1-32B5-4C8C-86B8-69AD7C53EBCA New RevisionGUID=96464A16-0F19-44B3-8BBD-56E3B90F08A9
+Change component parameters: Designator = "U1" ("U1"); Footprint = "ADI-RJ-5_L"; UniqueID = "\FDHYQYEO" ("\FDHYQYEO")
+Change component parameters (AddParameter): Name = "Amplifiers Per Package"; Value = "4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Code_JEDEC"; Value = "MS-012-AB"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.analog.com/en/index.html"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.analog.com/static/imported-files/data_sheets/OP184_284_484.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.analog.com/static/imported-files/packages/PKG_PDF/SOIC_Narrow%20(R)/R_14.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DatasheetVersion"; Value = "Rev. J"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Generic Part Number"; Value = "OP484"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Input Bias Current"; Value = "80nA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Input Offset Voltage"; Value = "250uV"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Iq/Amp"; Value = "2mA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Analog Devices"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "14-Pin Standard Small Outline Package, Body 8.65 x 3.9 mm, Pitch 1.27 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "R-14"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageVersion"; Value = "060606-A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = "OP484FSZ"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Slew Rate"; Value = "4V/us"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Small Signal Bandwidth"; Value = "4.25MHz"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "V Span Max"; Value = "36V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "V Span Min"; Value = "3V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R2" ("R2"); Footprint = "FP-AC1206-MFG"; UniqueID = "\XZCIPPSM" ("\XZCIPPSM")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "AC1206FR-0710KL"; VariantName = "[No Variations]"
+Added Component: Designator=C7(FP-CL31-IPC_B)
+Add component (AddParameter): Name = "Capacitance"; Value = "1uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "3216"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Tin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Depth"; Value = "1.6mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Dielectric"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.6mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "3.2mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material"; Value = "Ceramic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Thickness"; Value = "0.071inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "50V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating (DC)"; Value = "50V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "0.063inch"; VariantName = "[No Variations]"
+Added Component: Designator=C13(FP-CL31-IPC_B)
+Add component (AddParameter): Name = "Capacitance"; Value = "1uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "3216"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Tin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Depth"; Value = "1.6mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Dielectric"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.6mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "3.2mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material"; Value = "Ceramic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Thickness"; Value = "0.071inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "50V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating (DC)"; Value = "50V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "0.063inch"; VariantName = "[No Variations]"
+Added Component: Designator=C?(FP-CL31-IPC_B)
+Add component (AddParameter): Name = "Capacitance"; Value = "1uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "3216"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Tin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Depth"; Value = "1.6mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Dielectric"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.6mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "3.2mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material"; Value = "Ceramic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Thickness"; Value = "0.071inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "50V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating (DC)"; Value = "50V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "0.063inch"; VariantName = "[No Variations]"
+Added Component: Designator=R11(RESC3116X65X45ML10T20)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "AC1206FR-0710KL"; VariantName = "[No Variations]"
+Added Component: Designator=R12(RESC3116X65X45ML10T20)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "AC1206FR-0710KL"; VariantName = "[No Variations]"
+Added Component: Designator=R13(RESC3116X65X45ML10T20)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "AC1206FR-0710KL"; VariantName = "[No Variations]"
+Added Component: Designator=R14(RESC3116X65X45ML10T20)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "AC1206FR-0710KL"; VariantName = "[No Variations]"
+Added Component: Designator=R15(RESC3116X65X45ML10T20)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "AC1206FR-0710KL"; VariantName = "[No Variations]"
+Added Component: Designator=R16(RESC3116X65X45ML10T20)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "AC1206FR-0710KL"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=AGND Pin=C7-2
+Added Pin To Net: NetName=AGND Pin=C13-2
+Added Pin To Net: NetName=+5V_P Pin=C?-1
+Added Pin To Net: NetName=AGND Pin=C?-2
+Added Pin To Net: NetName=NetR2_2 Pin=R3-2
+Added Pin To Net: NetName=AGND Pin=R13-1
+Added Pin To Net: NetName=AGND Pin=R16-1
+Added Pin To Net: NetName=NetR9_2 Pin=U1-1
+Added Pin To Net: NetName=NetR9_1 Pin=U1-2
+Added Pin To Net: NetName=NetC10_1 Pin=U1-3
+Added Pin To Net: NetName=NetC5_1 Pin=U1-5
+Added Pin To Net: NetName=NetR2_2 Pin=U1-6
+Added Pin To Net: NetName=NetR2_1 Pin=U1-7
+Added Pin To Net: NetName=AGND Pin=U1-11
+Added Pin To Net: NetName=NetR9_2 Pin=U6-1
+Added Pin To Net: NetName=NetR2_1 Pin=U6-2
+Added Pin To Net: NetName=AGND Pin=U6-5
+Added Pin To Net: NetName=+3.3V_P Pin=U6-6
+Added Pin To Net: NetName=AGND Pin=U6-7
+Added Pin To Net: NetName=+5V_P Pin=U6-8
+Added Pin To Net: NetName=NetC7_1 Pin=C7-1
+Added Pin To Net: NetName=NetC7_1 Pin=R11-2
+Added Pin To Net: NetName=NetC7_1 Pin=U1-10
+Added Net: Name=NetC7_1
+Added Pin To Net: NetName=NetC13_1 Pin=C13-1
+Added Pin To Net: NetName=NetC13_1 Pin=R14-2
+Added Pin To Net: NetName=NetC13_1 Pin=U1-12
+Added Net: Name=NetC13_1
+Added Pin To Net: NetName=NetR11_1 Pin=R11-1
+Added Net: Name=NetR11_1
+Added Pin To Net: NetName=NetR12_1 Pin=R12-1
+Added Pin To Net: NetName=NetR12_1 Pin=U1-8
+Added Pin To Net: NetName=NetR12_1 Pin=U6-3
+Added Pin To Net: NetName=NetR12_1 Pin=U6-4
+Added Net: Name=NetR12_1
+Added Pin To Net: NetName=NetR12_2 Pin=R12-2
+Added Pin To Net: NetName=NetR12_2 Pin=R13-2
+Added Pin To Net: NetName=NetR12_2 Pin=U1-9
+Added Net: Name=NetR12_2
+Added Pin To Net: NetName=NetR14_1 Pin=R14-1
+Added Net: Name=NetR14_1
+Added Pin To Net: NetName=NetR15_1 Pin=R15-1
+Added Pin To Net: NetName=NetR15_1 Pin=U1-14
+Added Net: Name=NetR15_1
+Added Pin To Net: NetName=NetR15_2 Pin=R15-2
+Added Pin To Net: NetName=NetR15_2 Pin=R16-2
+Added Pin To Net: NetName=NetR15_2 Pin=U1-13
+Added Net: Name=NetR15_2
+Added Member To Class: ClassName=Analog_Telem Member=Component C5 1u
+Added Member To Class: ClassName=Analog_Telem Member=Component C7 1u
+Added Member To Class: ClassName=Analog_Telem Member=Component C13 1u
+Added Member To Class: ClassName=ADC_MCP3008 Member=Component C? 1u
+Added Member To Class: ClassName=Analog_Telem Member=Component R1 10K
+Added Member To Class: ClassName=Analog_Telem Member=Component R2 0
+Added Member To Class: ClassName=Analog_Telem Member=Component R3 0
+Added Member To Class: ClassName=Analog_Telem Member=Component R4 10K
+Added Member To Class: ClassName=Analog_Telem Member=Component R9 24K
+Added Member To Class: ClassName=Analog_Telem Member=Component R11 10K
+Added Member To Class: ClassName=Analog_Telem Member=Component R12 0
+Added Member To Class: ClassName=Analog_Telem Member=Component R13 0
+Added Member To Class: ClassName=Analog_Telem Member=Component R14 10K
+Added Member To Class: ClassName=Analog_Telem Member=Component R15 10K
+Added Member To Class: ClassName=Analog_Telem Member=Component R16 0
+Added Member To Class: ClassName=Analog_Telem Member=Component U1 OP484FSZ
+Added Member To Class: ClassName=Analog_Telem Member=Component U3 L4941BDT-TR
