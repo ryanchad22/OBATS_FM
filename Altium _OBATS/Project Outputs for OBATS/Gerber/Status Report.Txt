@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [tmp235_Front_End_Siognal_Chain.PcbDoc]
+   Generated File[tmp235_Front_End_Siognal_Chain.TXT]
+   Generated File[tmp235_Front_End_Siognal_Chain.LDP]
+   Generated File[tmp235_Front_End_Siognal_Chain.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 11:37:06 AM On 8/20/2020

@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=NetC10_1 Pin=U1-3
+Removed Pin From Net: NetName=AGND Pin=U1-4
+Removed Pin From Net: NetName=+5V_P Pin=U1-8
+Removed Member From Class: ClassName=Analog_Telem Member=U1

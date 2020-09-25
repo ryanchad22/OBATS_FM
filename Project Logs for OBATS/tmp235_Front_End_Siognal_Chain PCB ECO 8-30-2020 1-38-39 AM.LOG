@@ -1,0 +1,18 @@
+Removed Pin From Net: NetName=NetC10_1 Pin=U3-5
+Removed Pin From Net: NetName=NetR2_2 Pin=U6-6
+Added Component: Designator=R9(RESC2013X70X40ML20T20)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ERJ6ENF2402V"; VariantName = "[No Variations]"
+Added Component: Designator=R10(RESC3116X65X45ML10T20)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "AC1206FR-0710KL"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=AGND Pin=R10-1
+Added Pin To Net: NetName=NetU6_6 Pin=U6-6
+Added Pin To Net: NetName=NetR9_1 Pin=R9-1
+Added Pin To Net: NetName=NetR9_1 Pin=R10-2
+Added Net: Name=NetR9_1
+Added Pin To Net: NetName=NetR9_2 Pin=R9-2
+Added Net: Name=NetR9_2
+Added Member To Class: ClassName=Gyro Accel Temp MPU6050 Member=Component C4 1u
+Added Member To Class: ClassName=Analog_Telem Member=Component R9 24K
+Added Member To Class: ClassName=Analog_Telem Member=Component R10 10K
